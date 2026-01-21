@@ -17,8 +17,8 @@ public class tictactoe {
     // Print the board
     static void printBoard() {
         System.out.println();
-        System.out.println("Current Board:\n");
-        System.out.println("   0    1    2");
+        System.out.println("Current Board:");
+        System.out.println("    0   1   2");
         System.out.println("  +---+---+---+");
         for (int i = 0; i < 3; i++) {
             System.out.print(i + " | ");
@@ -102,7 +102,7 @@ public class tictactoe {
             int row, col;
             do {
                 while (true) {
-                    System.out.println("\nEnter your move (row and column): ");
+                    System.out.println("Enter your move (row and column): ");
 
                     if (!sc.hasNextInt()) {
                         System.out.println("\nInvalid input! Please enter numbers only.");
